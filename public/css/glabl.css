@@ -1,0 +1,57 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-color: #f0f3ef;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", \5b8b\4f53,
+    sans-serif;
+  color: #666;
+  -webkit-font-smoothing: antialiased;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+div,
+ul,
+li {
+  box-sizing: border-box;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+}
+/* a:hover {
+  color: #e1251b;
+} */
+input,
+button {
+  border: none;
+  outline: none;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.layer {
+  width: 1190px;
+  margin: 0 auto;
+}

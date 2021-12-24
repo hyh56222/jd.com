@@ -1,0 +1,332 @@
+.site-nav-cover {
+  width: 100%;
+  background-color: #fff;
+  > .site-nav {
+    height: 80px;
+
+    background-color: #fff;
+    > .nav-log {
+      width: 170px;
+      height: 60px;
+      float: left;
+      margin-left: 100px;
+      margin-top: 10px;
+      img {
+        width: 100%;
+      }
+    }
+    > .nav-hydl {
+      width: 110px;
+      height: 37px;
+      margin-top: 29px;
+      margin-left: 15px;
+      float: left;
+      img {
+        width: 100%;
+      }
+    }
+    > .nav-diaocha {
+      width: 138px;
+      height: 18px;
+      line-height: 18px;
+      float: right;
+      margin-top: 53px;
+      margin-right: 100px;
+
+      position: relative;
+      > .diaocha-link {
+        font-size: 12px;
+        float: right;
+        position: absolute;
+        top: 0;
+        left: 28px;
+        color: #999999;
+        &:hover {
+          color: #e4393c;
+          text-decoration: underline;
+        }
+      }
+      > .q-icon {
+        width: 18px;
+        height: 15px;
+        margin: 0 5px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
+.main-show-cover {
+  width: 100%;
+
+  background-color: #ef0601;
+  > .main-show {
+    height: 475px;
+    width: 990px;
+    position: relative;
+    > .main-banner {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    > .login-form {
+      width: 346px;
+      height: 400px;
+      z-index: 7;
+      background-color: #fff;
+      float: left;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      .tips-inner {
+        background: #fff8f0;
+        width: 100%;
+        height: 39px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #999999;
+        i {
+          font-size: 14px;
+        }
+      }
+      > .login-tab {
+        height: 54px;
+        font-size: 18px;
+        width: 173px;
+        text-align: center;
+        border-bottom: 1px solid #f4f4f4;
+        float: left;
+
+        display: block;
+        > .tab-link {
+          color: #666;
+          width: 173px;
+          height: 18px;
+          line-height: 54px;
+          font-weight: 700;
+          &:hover {
+            color: #e4393c;
+          }
+        }
+        > .tab-link-checked {
+          color: #e4393c;
+          width: 173px;
+          height: 18px;
+          line-height: 54px;
+          font-weight: 700;
+        }
+      }
+      > .login-tab-l {
+        border-right: 1px solid #f4f4f4;
+      }
+      > .form {
+        width: 306px;
+        height: 192px;
+        margin-left: 20px;
+        margin-top: 90px;
+        overflow: hidden;
+
+        > .loginname {
+          width: 305px;
+          height: 40px;
+          border: 1px solid #bdbdbd;
+          margin-bottom: 20px;
+          position: relative;
+          > .name-label {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            z-index: 11;
+            border-right: 1px solid #bdbdbd;
+            background: url(../img/label.png) no-repeat;
+          }
+          > .itxt {
+            line-height: 18px;
+            height: 18px;
+            border: 0;
+            padding: 10px 0 10px 50px;
+            width: 250px;
+            float: none;
+            overflow: hidden;
+            font-size: 14px;
+          }
+        }
+        > .loginpassword {
+          width: 305px;
+          height: 40px;
+          border: 1px solid #bdbdbd;
+          position: relative;
+          > .pwd-label {
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 38px;
+            height: 38px;
+            z-index: 11;
+            border-right: 1px solid #bdbdbd;
+            background: url(../img/label.png) no-repeat -48px 0;
+          }
+          > .itxt {
+            line-height: 18px;
+            height: 18px;
+            border: 0;
+            padding: 10px 0 10px 50px;
+            width: 250px;
+            float: none;
+            overflow: hidden;
+            font-size: 14px;
+          }
+        }
+        > .forget-password {
+          width: 48px;
+          height: 14px;
+          font-size: 12px;
+          margin-top: 20px;
+          float: right;
+          a {
+            color: #666;
+            font-weight: 600;
+          }
+        }
+        > .login-btn {
+          border: 1px solid #cb2a2d;
+          margin-top: 60px;
+          height: 32px;
+          width: 99%;
+          position: relative;
+          background: #e4393c;
+          > .btn-img {
+            display: block;
+            width: 302px;
+
+            height: 31px;
+            line-height: 31px;
+            color: #fff;
+            font-size: 20px;
+            font-family: "Microsoft YaHei";
+            position: absolute;
+            left: 120px;
+          }
+        }
+      }
+      > .coagent {
+        height: 51px;
+
+        margin-top: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 50px;
+        border-top: 1px solid #f4f4f4;
+        height: auto;
+        background-color: #fcfcfc;
+        li {
+          float: left;
+          > .pdl {
+            display: inline-block;
+            color: #666;
+            font-size: 12px;
+
+            position: relative;
+            padding-left: 24px;
+            &:hover {
+              color: #b61d1d;
+              text-decoration: underline;
+            }
+            b {
+              width: 19px;
+              height: 18px;
+              display: block;
+              margin: 0 auto;
+              position: absolute;
+              float: left;
+              left: 0;
+              top: 16px;
+              background: url(../img/QQ-weixin.png);
+            }
+            > .weixin-icon {
+              background-position: -20px 0;
+            }
+          }
+          > .line {
+            font-size: 12px;
+            margin-left: 10px;
+            color: #ccc;
+            margin-right: 10px;
+          }
+        }
+        .extra-r {
+          float: right;
+          position: relative;
+          .regist-link {
+            a {
+              color: #b61d1d;
+              font-size: 14px;
+              &:hover {
+                color: #b61d1d;
+                text-decoration: underline;
+              }
+              .jiantou {
+                width: 16px;
+                height: 16px;
+                overflow: hidden;
+                vertical-align: middle;
+                margin-right: 5px;
+                background: url(../img/label.png) no-repeat -104px -75px;
+                position: absolute;
+                top: 18px;
+                left: -20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  background-color: #fff;
+
+  > .foot {
+    height: 88px;
+    overflow: hidden;
+
+    > .foot-list {
+      width: 990px;
+      height: 14px;
+      margin-top: 30px;
+      margin-left: 130px;
+
+      > li {
+        float: left;
+        cursor: pointer;
+        font-size: 12px;
+        color: rgb(109, 109, 109);
+        padding: 0 15px;
+        border-right: 1px solid #666666;
+        &:hover {
+          color: #e4393c;
+          text-decoration: underline;
+        }
+      }
+      > .fin {
+        border-right: none;
+      }
+    }
+    > .copyright {
+      width: 990px;
+      height: 18px;
+      text-align: center;
+      margin-top: 14px;
+      margin-left: 130px;
+      font-size: 12px;
+      color: #666666;
+    }
+  }
+}
